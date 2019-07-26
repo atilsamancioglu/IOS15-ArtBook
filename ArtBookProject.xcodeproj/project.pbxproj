@@ -14,6 +14,8 @@
 		FC994D7B22EAE837000B0556 /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC994D7922EAE837000B0556 /* ArtBookProject.xcdatamodeld */; };
 		FC994D7D22EAE839000B0556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC994D7C22EAE839000B0556 /* Assets.xcassets */; };
 		FC994D8022EAE839000B0556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC994D7E22EAE839000B0556 /* LaunchScreen.storyboard */; };
+		FC994D8822EAEAB5000B0556 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC994D8722EAEAB5000B0556 /* DetailsVC.swift */; };
+		FC994D8A22EAF1E4000B0556 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = FC994D8922EAF1E4000B0556 /* select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FC994D7C22EAE839000B0556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC994D7F22EAE839000B0556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC994D8122EAE839000B0556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC994D8722EAEAB5000B0556 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		FC994D8922EAF1E4000B0556 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 		FC994D6F22EAE837000B0556 /* ArtBookProject */ = {
 			isa = PBXGroup;
 			children = (
+				FC994D8922EAF1E4000B0556 /* select.png */,
 				FC994D7022EAE837000B0556 /* AppDelegate.swift */,
 				FC994D7222EAE837000B0556 /* SceneDelegate.swift */,
 				FC994D7422EAE837000B0556 /* ViewController.swift */,
+				FC994D8722EAEAB5000B0556 /* DetailsVC.swift */,
 				FC994D7622EAE837000B0556 /* Main.storyboard */,
 				FC994D7C22EAE839000B0556 /* Assets.xcassets */,
 				FC994D7E22EAE839000B0556 /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC994D8022EAE839000B0556 /* LaunchScreen.storyboard in Resources */,
+				FC994D8A22EAF1E4000B0556 /* select.png in Resources */,
 				FC994D7D22EAE839000B0556 /* Assets.xcassets in Resources */,
 				FC994D7822EAE837000B0556 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				FC994D7522EAE837000B0556 /* ViewController.swift in Sources */,
 				FC994D7122EAE837000B0556 /* AppDelegate.swift in Sources */,
 				FC994D7322EAE837000B0556 /* SceneDelegate.swift in Sources */,
+				FC994D8822EAEAB5000B0556 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
